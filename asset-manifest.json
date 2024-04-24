@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ShanMuhammad23/quotesbundle.git/static/css/main.ece468e2.css",
+    "main.js": "/ShanMuhammad23/quotesbundle.git/static/js/main.95ac29fc.js",
+    "static/js/453.f296a51d.chunk.js": "/ShanMuhammad23/quotesbundle.git/static/js/453.f296a51d.chunk.js",
+    "static/media/her-bg.jpg": "/ShanMuhammad23/quotesbundle.git/static/media/her-bg.a8beda29ce903faafdd8.jpg",
+    "index.html": "/ShanMuhammad23/quotesbundle.git/index.html",
+    "main.ece468e2.css.map": "/ShanMuhammad23/quotesbundle.git/static/css/main.ece468e2.css.map",
+    "main.95ac29fc.js.map": "/ShanMuhammad23/quotesbundle.git/static/js/main.95ac29fc.js.map",
+    "453.f296a51d.chunk.js.map": "/ShanMuhammad23/quotesbundle.git/static/js/453.f296a51d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ece468e2.css",
+    "static/js/main.95ac29fc.js"
+  ]
+}
