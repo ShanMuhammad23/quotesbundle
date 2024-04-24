@@ -1,24 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import Footer from './Components/Footer';
+import QuoteBox from './Components/QuoteBox';
+import Quotes from './Quotes'; // Assuming Quotes component handles the prop
+import Hero from './Components/Hero';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useParams } from 'react-router-dom';
+import { useState } from 'react';
 
-function App() {
+function App(props) {
+  const params=useParams();
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <main className='d-flex flex-column bd-highlight space-y-4'>
+        <Hero />
+    
+    
+  <Quotes cata='Inspirational'/>
+  <Quotes cata='Life'/>
+  <Quotes cata='Wisdom'/>
+  <Quotes cata='Advice'/>
+  <Quotes cata='Philosophy'/>
+
+
+      
+        
+
+
+        
+
+      
+        <Footer />
+      </main>
+    </BrowserRouter>
   );
 }
 
